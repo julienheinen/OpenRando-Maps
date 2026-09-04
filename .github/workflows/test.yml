@@ -1,0 +1,21 @@
+name: Test OpenRando Maps
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Télécharger le dépôt
+        uses: actions/checkout@v4
+
+      - name: Vérifier catalog.json
+        run: python -m json.tool catalog.json
+
+      - name: Afficher la structure
+        run: find . -maxdepth 3 -type f
