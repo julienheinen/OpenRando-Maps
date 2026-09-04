@@ -1,0 +1,10 @@
+{
+  "id": "nouvelle-aquitaine",
+  "name": "Nouvelle-Aquitaine",
+  "country": "france",
+  "enabled": true,
+  "source": {
+    "type": "geofabrik",
+    "url": "https://download.geofabrik.de/europe/france/nouvelle-aquitaine-latest.osm.pbf"
+  }
+}
