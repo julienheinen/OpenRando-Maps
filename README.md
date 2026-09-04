@@ -1,2 +1,9 @@
-# OpenRando-API
-API de l'application OpenRando 
+# OpenRando Maps
+
+Cartes hors ligne pour OpenRando.
+
+Les données cartographiques proviennent d’OpenStreetMap.
+
+© OpenStreetMap contributors
+
+Les données OpenStreetMap sont distribuées sous licence ODbL.
