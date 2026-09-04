@@ -1,5 +1,11 @@
 {
   "version": 1,
   "updatedAt": null,
-  "regions": []
+  "countries": [
+    {
+      "id": "france",
+      "name": "France",
+      "path": "countries/france/country.json"
+    }
+  ]
 }
